@@ -1,16 +1,27 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { add } from '../features/todoSlice';
+import { add, remove, update } from '../features/todoSlice';
+import "../App.css"
 
 function TodoComponent() {
-    const [valueAdd, setvalueAdd] = useState('');
+    const [valueAdd, setValueAdd] = useState('');
+    const [editIndex, setEditIndex] = useState(null);
+
     const dispatch = useDispatch();
     const todos = useSelector((state) => state.todos.value);
 
     const handleAddTodo = () => {
         if (valueAdd.trim()) {
             dispatch(add(valueAdd));
-            setvalueAdd('');
+            setValueAdd('');
+        }
+    };
+
+    const handleUpdateTodo = () => {
+        if (editIndex !== null) {
+            dispatch(update({ index: editIndex, title: valueAdd, status: false }));
+            setEditIndex(null);
+            setValueAdd('');
         }
     };
 
@@ -18,19 +29,35 @@ function TodoComponent() {
         <div>
             <h2>Todos:</h2>
 
-            <div>
+            <div style={{ marginBottom: "20px" }}>
                 <input
                     type="text"
                     value={valueAdd}
-                    onChange={(e) => setvalueAdd(e.target.value)}
+                    onChange={(e) => setValueAdd(e.target.value)}
                 />
-                <button onClick={handleAddTodo}>Add Todo</button>
+                {editIndex !== null ? (
+                    <button onClick={handleUpdateTodo}>Update Todo</button>
+                ) : (
+                    <button onClick={handleAddTodo}>Add Todo</button>
+                )}
             </div>
 
             <ul>
                 {todos.map((item, i) => (
-                    <li key={i}>
-                        {item.title} - {item.status ? 'Completed' : 'In Completed'}
+                    <li key={i} style={{ listStyle: "none", marginTop: "10px" }}>
+                        {item.title} - {item.status ? 'Completed' : 'Incomplete'}
+                        <button
+                            onClick={() => {
+                                setEditIndex(i);
+                                setValueAdd(item.title);
+                            }}
+                            style={{ marginLeft: "10px" }}
+                        >
+                            Edit
+                        </button>
+                        <button onClick={() => dispatch(remove(i))} style={{ marginLeft: "10px" }}>
+                            Delete
+                        </button>
                     </li>
                 ))}
             </ul>

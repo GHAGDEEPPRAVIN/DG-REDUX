@@ -1,10 +1,12 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  value: [{
-    title: "learn Redux",
-    status:true
-  }]
+  value: [
+    {
+      title: "learn Redux",
+      status: true
+    }
+  ]
 };
 
 const todoSlice = createSlice({
@@ -12,18 +14,25 @@ const todoSlice = createSlice({
   initialState,
   reducers: {
     add: (state, action) => {
-      state.value.push(
-        {
-            title : action.payload,
-            status: true
-        }
-      );
+      state.value.push({
+        title: action.payload,
+        status: true
+      });
+    },
+    remove: (state, action) => {
+      state.value.splice(action.payload, 1);
+    },
+    update: (state, action) => {
+      const { index, title, status } = action.payload;
+      if (state.value[index]) {
+        state.value[index] = {
+          title,
+          status
+        };
+      }
     }
   }
 });
 
-// store
 export default todoSlice.reducer;
-
-// dispatched
-export const { add } = todoSlice.actions;
+export const { add, remove, update } = todoSlice.actions;
