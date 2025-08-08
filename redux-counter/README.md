@@ -1,3 +1,3 @@
-Watchh Demo 
+Watch Demo 
 
 <img src="demo.gif">
