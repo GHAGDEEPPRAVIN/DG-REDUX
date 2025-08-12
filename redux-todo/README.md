@@ -1,12 +1,35 @@
-# React + Vite
+📝 Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive task manager built with HTML, CSS, and Redux Toolkit ⚡.
+Manage all your tasks with ease using a centralized Redux store, organized state, and a clean slice structure.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features:
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+➕ Add Todos – Create new tasks in seconds.
+
+✅ Mark Complete – Toggle between done and pending.
+
+❌ Delete Tasks – Remove tasks you no longer need.
+
+🗂 Centralized Store – All data stored in one predictable location.
+
+🧩 Slice Logic – Reducers + actions in a single clean file.
+
+🔍 Debug Easily – Compatible with Redux DevTools.
+
+
+🛠 Tech Stack:
+
+
+🖥 Frontend: HTML, CSS
+
+🗄 State Management: Redux + Redux Toolkit (createSlice, configureStore)
+
+⚙ Core Concepts: Store, State, Actions, Reducers
+
+
+Watch Demo 
+
+<img src="demo.gif">
