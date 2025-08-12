@@ -1,10 +1,10 @@
-📝 Todo App
+<h1>📝 Todo App</h1>
 
 A simple and interactive task manager built with HTML, CSS, and Redux Toolkit ⚡.
 Manage all your tasks with ease using a centralized Redux store, organized state, and a clean slice structure.
 
 
-✨ Features:
+<h2>✨ Features:</h2>
 
 
 ➕ Add Todos – Create new tasks in seconds.
@@ -20,7 +20,7 @@ Manage all your tasks with ease using a centralized Redux store, organized state
 🔍 Debug Easily – Compatible with Redux DevTools.
 
 
-🛠 Tech Stack:
+<h2>🛠 Tech Stack:</h2>
 
 
 🖥 Frontend: HTML, CSS
@@ -30,6 +30,6 @@ Manage all your tasks with ease using a centralized Redux store, organized state
 ⚙ Core Concepts: Store, State, Actions, Reducers
 
 
-Watch Demo 
+<h1>Watch Demo </h1>
 
 <img src="demo.gif">
