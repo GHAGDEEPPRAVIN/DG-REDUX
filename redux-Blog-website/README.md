@@ -3,7 +3,7 @@
 Beyond Borders is a travel web application designed for exploring destinations, reading travel blogs, and managing personalized travel experiences. Built using HTML, CSS, and React, the website integrates CRUD functionality (Create, Read, Update, Delete) to give users full control over travel blogs and itineraries.
 
 <h2>✨ Features</h2>
-🖊 Blog Management (CRUD)
+<h3>🖊 Blog Management (CRUD)</h3>
 
 Create → Add new travel blogs with title, description, and images.
 
@@ -13,19 +13,19 @@ Update → Edit existing blogs to fix or update travel details.
 
 Delete → Remove unwanted blog posts.
 
-🧳 Travel Destinations
+<h2>🧳 Travel Destinations</h2>
 
 Explore curated lists of destinations with images and details.
 
 Search and filter places based on interest.
 
-👤 User Interaction
+<h2>👤 User Interaction</h2>
 
 Save favorite destinations.
 
 Share travel tips and recommendations.
 
-🛠 Tech Stack
+<h2>🛠 Tech Stack</h2>
 
 Frontend → React, HTML5, CSS3
 
@@ -35,7 +35,7 @@ Styling → External CSS file + responsive design
 
 Data Handling → Local JSON / mock API for CRUD
 
-📌 CRUD Example in Blogs
+<h2>📌 CRUD Example in Blogs</h2>
 
 Create Blog → Add a blog through a form (title, description, image).
 
@@ -45,7 +45,7 @@ Update Blog → Edit blog post details using an editable form.
 
 Delete Blog → Remove blog from the list.
 
-🚀 Future Enhancements
+<h2>🚀 Future Enhancements</h2>
 
 User authentication for secure blog posting.
 
