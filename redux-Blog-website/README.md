@@ -1,12 +1,56 @@
-# React + Vite
+<h1>🌍 Beyond Borders – Travel Website</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Beyond Borders is a travel web application designed for exploring destinations, reading travel blogs, and managing personalized travel experiences. Built using HTML, CSS, and React, the website integrates CRUD functionality (Create, Read, Update, Delete) to give users full control over travel blogs and itineraries.
 
-Currently, two official plugins are available:
+✨ Features
+🖊 Blog Management (CRUD)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Create → Add new travel blogs with title, description, and images.
 
-## Expanding the ESLint configuration
+Read → Browse and view travel blogs shared by others.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Update → Edit existing blogs to fix or update travel details.
+
+Delete → Remove unwanted blog posts.
+
+🧳 Travel Destinations
+
+Explore curated lists of destinations with images and details.
+
+Search and filter places based on interest.
+
+👤 User Interaction
+
+Save favorite destinations.
+
+Share travel tips and recommendations.
+
+🛠 Tech Stack
+
+Frontend → React, HTML5, CSS3
+
+State Management → React Hooks (useState, useEffect)
+
+Styling → External CSS file + responsive design
+
+Data Handling → Local JSON / mock API for CRUD
+
+📌 CRUD Example in Blogs
+
+Create Blog → Add a blog through a form (title, description, image).
+
+Read Blogs → Display blogs on homepage with React components.
+
+Update Blog → Edit blog post details using an editable form.
+
+Delete Blog → Remove blog from the list.
+
+🚀 Future Enhancements
+
+User authentication for secure blog posting.
+
+Integration with a real backend (Node.js/Express + MongoDB).
+
+Interactive maps for destinations.
+
+Comment system for blogs.
