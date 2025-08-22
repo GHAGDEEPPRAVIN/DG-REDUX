@@ -2,7 +2,7 @@
 
 Beyond Borders is a travel web application designed for exploring destinations, reading travel blogs, and managing personalized travel experiences. Built using HTML, CSS, and React, the website integrates CRUD functionality (Create, Read, Update, Delete) to give users full control over travel blogs and itineraries.
 
-✨ Features
+<h2>✨ Features</h2>
 🖊 Blog Management (CRUD)
 
 Create → Add new travel blogs with title, description, and images.
