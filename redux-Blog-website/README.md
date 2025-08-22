@@ -1,42 +1,12 @@
-<h1>🌍 Beyond Borders – Travel Blog Website ✈️</h1>
+# React + Vite
 
-Beyond Borders is a responsive travel blog web application built using React.js.
-It allows users to explore travel stories, read curated content, and manage blog posts through a simple CRUD (Create, Read, Update, Delete) interface.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-<h2>✨ Features</h2>
+Currently, two official plugins are available:
 
-📝 Add, Edit, Delete Blog Posts in real-time
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🎨 Responsive & Modern UI with external CSS styling
+## Expanding the ESLint configuration
 
-📂 Organized components for Home, About, Blog, and Contact pages
-
-⚡ React Router for seamless page navigation
-
-📱 Mobile-friendly design for better accessibility
-
-💾 State management using React Hooks
-
-<h2>🛠️ Tech Stack</h2>
-
-Frontend: React.js, JSX, CSS
-
-Routing: React Router DOM
-
-State Management: useState Hook
-
-Styling: External CSS for each page
-
-<h2>📌 Pages</h2>
-
-Home: Travel destination highlights and hero section
-
-About: Information about the website and mission
-
-Blog: CRUD operations for blog posts
-
-Contact: Contact form and details
-
-Watch Demo 
-
-<img src="demo.gif">
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

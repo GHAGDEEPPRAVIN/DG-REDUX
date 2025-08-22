@@ -10,16 +10,17 @@ export default function Blog() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (!title.trim() || !content.trim()) return;
+    if (!title || !content) {
+      return;
+    }
 
     if (editIndex !== null) {
-      // Update existing post
       const updatedPosts = [...posts];
       updatedPosts[editIndex] = { title, content };
       setPosts(updatedPosts);
       setEditIndex(null);
-    } else {
-      // Add new post
+    }
+    else {
       setPosts([...posts, { title, content }]);
     }
 
