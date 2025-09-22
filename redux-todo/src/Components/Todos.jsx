@@ -18,11 +18,9 @@ function TodoComponent() {
     };
 
     const handleUpdateTodo = () => {
-        if (editIndex !== null) {
             dispatch(update({ index: editIndex, title: valueAdd, status: false }));
             setEditIndex(null);
             setValueAdd('');
-        }
     };
 
     return (
