@@ -1,0 +1,178 @@
+{
+  "product": [
+    {
+      "id": "3",
+      "title": "Headphones",
+      "category": "Electronics",
+      "price": 3000
+    },
+    {
+      "id": "4",
+      "title": "Refrigerator",
+      "category": "Appliances",
+      "price": 40000
+    },
+    {
+      "id": "5",
+      "title": "Washing Machine",
+      "category": "Appliances",
+      "price": 35000
+    },
+    {
+      "id": "6",
+      "title": "Microwave Oven",
+      "category": "Appliances",
+      "price": 10000
+    },
+    {
+      "id": "7",
+      "title": "Sofa",
+      "category": "Furniture",
+      "price": 15000
+    },
+    {
+      "id": "8",
+      "title": "Dining Table",
+      "category": "Furniture",
+      "price": 25000
+    },
+    {
+      "id": "9",
+      "title": "Bed Frame",
+      "category": "Furniture",
+      "price": 20000
+    },
+    {
+      "id": "10",
+      "title": "Bookshelf",
+      "category": "Furniture",
+      "price": 8000
+    },
+    {
+      "title": "Air Conditioner",
+      "category": "Appliances",
+      "price": "450000",
+      "id": "11"
+    },
+    {
+      "id": "12",
+      "title": "Tablet",
+      "category": "Electronics",
+      "price": 15000
+    },
+    {
+      "id": "13",
+      "title": "Smartwatch",
+      "category": "Electronics",
+      "price": 7000
+    },
+    {
+      "id": "14",
+      "title": "Camera",
+      "category": "Electronics",
+      "price": 25000
+    },
+    {
+      "id": "15",
+      "title": "Printer",
+      "category": "Electronics",
+      "price": 12000
+    },
+    {
+      "id": "16",
+      "title": "Desk Lamp",
+      "category": "Furniture",
+      "price": 3000
+    },
+    {
+      "id": "17",
+      "title": "Electric Kettle",
+      "category": "Appliances",
+      "price": 2000
+    },
+    {
+      "id": "18",
+      "title": "Toaster",
+      "category": "Appliances",
+      "price": 1500
+    },
+    {
+      "id": "19",
+      "title": "Gaming Console",
+      "category": "Electronics",
+      "price": 30000
+    },
+    {
+      "id": "20",
+      "title": "Monitor",
+      "category": "Electronics",
+      "price": 18000
+    },
+    {
+      "id": "21",
+      "title": "Office Chair",
+      "category": "Furniture",
+      "price": 12000
+    },
+    {
+      "id": "22",
+      "title": "Coffee Maker",
+      "category": "Appliances",
+      "price": 5000
+    },
+    {
+      "id": "23",
+      "title": "Blender",
+      "category": "Appliances",
+      "price": 4000
+    },
+    {
+      "id": "24",
+      "title": "Router",
+      "category": "Electronics",
+      "price": 6000
+    },
+    {
+      "id": "25",
+      "title": "External Hard Drive",
+      "category": "Electronics",
+      "price": 8000
+    },
+    {
+      "id": "26",
+      "title": "Smart Home Hub",
+      "category": "Electronics",
+      "price": 9000
+    },
+    {
+      "id": "27",
+      "title": "Vacuum Cleaner",
+      "category": "Appliances",
+      "price": 15000
+    },
+    {
+      "id": "28",
+      "title": "Air Purifier",
+      "category": "Appliances",
+      "price": 12000
+    },
+    {
+      "id": "29",
+      "title": "Electric Fan",
+      "category": "Appliances",
+      "price": 3000
+    },
+    {
+      "id": "30",
+      "title": "Water Heater",
+      "category": "Appliances",
+      "price": 8000
+    },
+    {
+      "id": "dfa6",
+      "title": "earbuds",
+      "category": "Electronics",
+      "price": 15487963215478964
+    }
+  ]
+}
