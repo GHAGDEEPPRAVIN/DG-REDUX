@@ -1,12 +1,24 @@
-# React + Vite
+# Firebase Chat App (Vite + React + Redux + Firebase)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Setup
+1. Create a Firebase project at https://console.firebase.google.com/.
+2. Enable **Email/Password** authentication and create a **Firestore** database (in test mode for development).
+3. Copy your Firebase config and paste it into `src/firebase.js` where indicated.
+4. Install dependencies:
+   ```bash
+   npm i
+   ```
+5. Run the dev server:
+   ```bash
+   npm run dev
+   ```
+6. The app runs at the URL printed by Vite (usually http://localhost:5173).
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- Sign up / Sign in using Firebase Auth (email/password)
+- Firestore stores users and messages
+- Left sidebar: list of users (emails)
+- Center: chat with selected user (real-time)
+- Right: profile panel for the selected user and route `/profile/:uid` for editing your profile
+- Delete or edit messages
+- Last seen updates
