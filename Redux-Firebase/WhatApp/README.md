@@ -1,24 +1,56 @@
-# Firebase Chat App (Vite + React + Redux + Firebase)
+📱 WhatsApp-like Chat Application (Firebase + CRUD)
 
-## Setup
-1. Create a Firebase project at https://console.firebase.google.com/.
-2. Enable **Email/Password** authentication and create a **Firestore** database (in test mode for development).
-3. Copy your Firebase config and paste it into `src/firebase.js` where indicated.
-4. Install dependencies:
-   ```bash
-   npm i
-   ```
-5. Run the dev server:
-   ```bash
-   npm run dev
-   ```
-6. The app runs at the URL printed by Vite (usually http://localhost:5173).
+This project is a WhatsApp-inspired chat application built using React, Redux Toolkit, and Firebase.
+It demonstrates CRUD (Create, Read, Update, Delete) operations along with real-time messaging using Firebase Firestore.
 
-## Features
-- Sign up / Sign in using Firebase Auth (email/password)
-- Firestore stores users and messages
-- Left sidebar: list of users (emails)
-- Center: chat with selected user (real-time)
-- Right: profile panel for the selected user and route `/profile/:uid` for editing your profile
-- Delete or edit messages
-- Last seen updates
+DEMO VIDEO
+
+watch video (https://drive.google.com/file/d/1tYUJ9bbrtXPJL0Vb5hMEYM5lYoxVvCet/view?usp=sharing)
+
+🚀 Features
+
+🔑 User Authentication (Firebase Authentication – Email/Password, Google Sign-In)
+
+👥 User Management (CRUD)
+
+Create new users (Sign up)
+
+Read user profiles & chat list
+
+Update user profile details (name, status, profile picture)
+
+Delete account
+
+💬 Chat Functionality (CRUD)
+
+Create new chats/messages
+
+Read messages in real-time from Firestore
+
+Update/edit messages
+
+Delete messages
+
+🔔 Real-time Messaging (Firestore real-time updates)
+
+🌓 Dark/Light Mode UI
+
+🔍 Search users & conversations
+
+📱 Responsive Design – Mobile-first WhatsApp-like layout
+
+🛠️ Tech Stack
+
+Frontend: React, Redux Toolkit, Tailwind CSS
+
+Database: Firebase Firestore (real-time NoSQL DB)
+
+Authentication: Firebase Auth (JWT-based)
+
+Storage: Firebase Storage (for profile pictures/media)
+
+Hosting (optional): Firebase Hosting
+
+
+
+
